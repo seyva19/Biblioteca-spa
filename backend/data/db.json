@@ -1,0 +1,18 @@
+{
+  "materiales": [
+    { "id": "MAT-001", "codigo": "LIB-001", "titulo": "Introducción a JavaScript", "autor": "María López", "tipo": "Libro", "cantidad": 3 },
+    { "id": "MAT-002", "codigo": "LIB-002", "titulo": "Fundamentos de bases de datos", "autor": "Carlos Ruiz", "tipo": "Libro", "cantidad": 2 },
+    { "id": "MAT-003", "codigo": "REC-001", "titulo": "Kit Arduino UNO", "autor": "Laboratorio", "tipo": "Recurso", "cantidad": 2 },
+    { "id": "MAT-004", "codigo": "LIB-004", "titulo": "Guía práctica de HTML y CSS", "autor": "Ana Torres", "tipo": "Libro", "cantidad": 4 }
+  ],
+  "lectores": [
+    { "id": "LEC-001", "codigo": "2026001", "nombre": "Ana Torres", "correo": "ana.torres@estudiante.edu" },
+    { "id": "LEC-002", "codigo": "2026002", "nombre": "Diego Ramos", "correo": "diego.ramos@estudiante.edu" },
+    { "id": "LEC-003", "codigo": "2026003", "nombre": "Lucía Mendoza", "correo": "lucia.mendoza@estudiante.edu" }
+  ],
+  "prestamos": [
+    { "id": "PRE-001", "materialId": "MAT-001", "lectorId": "LEC-001", "fechaPrestamo": "2026-10-25", "fechaDevolucionPrevista": "2026-11-01", "fechaDevolucionReal": null, "observacion": "Préstamo para trabajo de clase" },
+    { "id": "PRE-002", "materialId": "MAT-003", "lectorId": "LEC-002", "fechaPrestamo": "2026-10-10", "fechaDevolucionPrevista": "2026-10-17", "fechaDevolucionReal": null, "observacion": "Uso en laboratorio" },
+    { "id": "PRE-003", "materialId": "MAT-002", "lectorId": "LEC-003", "fechaPrestamo": "2026-10-03", "fechaDevolucionPrevista": "2026-10-10", "fechaDevolucionReal": "2026-10-09", "observacion": "Devuelto en buen estado" }
+  ]
+}
